@@ -7,3 +7,12 @@
 - write tests on all the functions
 - use `Promise` or `async/await`
  
+# run node
+```bash
+npm start
+```
+
+# run tests
+ ```bash
+ npm test
+ ```
