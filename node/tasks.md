@@ -1,9 +1,9 @@
 
 ## Tasks
-- make an abstraction for data array (consume the data as a service method) 
+- consume the data as a method execution result) 
 - filter admin users and print them out
 - group users by role attribute and print them out
-- find the youngest user and attach `{ isYoungest: true }`
+- implement a generic method for properties attaching and attach `{ isYoungest: true }` to the youngest user
 - write tests on all the functions
 - use `Promise` or `async/await`
  
