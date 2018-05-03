@@ -73,7 +73,4 @@ const data = [
     }
 ];
 
-let users = data;
-
 console.log('hello, world!');
-
