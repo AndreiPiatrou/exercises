@@ -1,0 +1,17 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "node js samples",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "a.piatrou",
+  "license": "ISC",
+  "dependencies": {
+    "npm": "^6.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.1.1"
+  }
+}
