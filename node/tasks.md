@@ -1,18 +1,17 @@
 
 ## Tasks
-- consume the data as a method execution result) 
+- extract array named `data` into separate module and consume it as a `Promise`/`async/await` result
 - filter admin users and print them out
 - group users by role attribute and print them out
-- implement a generic method for properties attaching and attach `{ isYoungest: true }` to the youngest user
-- write tests on all the functions
+- aggregate users array to have an extra `isYoungest` attribute, but do not affect source objects
 - use `Promise` or `async/await`
  
-# run node
+## Run node
 ```bash
 npm start
 ```
 
-# run tests
+## Run tests
  ```bash
  npm test
  ```
