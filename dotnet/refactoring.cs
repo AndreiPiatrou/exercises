@@ -47,7 +47,7 @@ namespace Services
                 throw ex;
             }
             
-            foreach(var user in users.ToArray())
+            foreach (var user in users.ToArray())
             {
                 if (!user.IsActive)
                 {
