@@ -19,7 +19,7 @@ namespace Services
         public static List<User> FindUsers(string term)
         {
             var users = new List<User>(); // Create collection.
-            var loadedData = '';
+            var loadedData = "";
             switch (term)
             {
                 case null:
@@ -46,6 +46,8 @@ namespace Services
 
                 throw ex;
             }
+
+            if (users.Count == 0) return new List<User>();
             
             foreach (var user in users.ToArray())
             {
