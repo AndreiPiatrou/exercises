@@ -19,7 +19,7 @@ namespace Services
         public static List<User> FindUsers(string term)
         {
             var users = new List<User>(); // Create collection.
-            var loadedData = string.Empty;
+            var loadedData = '';
             switch (term)
             {
                 case null:
@@ -45,6 +45,14 @@ namespace Services
                 }
 
                 throw ex;
+            }
+            
+            foreach(var user in users.ToArray())
+            {
+                if (!user.IsActive)
+                {
+                    users.Remove(user); // Filter out inactive users
+                }
             }
 
             var log = System.IO.File.AppendText(ConfigurationManager.AppSettings["Log_File_Path"]);
