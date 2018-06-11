@@ -1,7 +1,8 @@
-var assert = require('assert');
+const assert = require('assert');
+const { data } = require('./../index');
 
 describe('some functionName ', function() {
     it('some check', function() {
-        assert.equal([1, 2, 3].indexOf(4), -1);
+        assert.ok(data, 'data should be defined');
     });
 })

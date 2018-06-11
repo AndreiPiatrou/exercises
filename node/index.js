@@ -73,4 +73,4 @@ const data = [
     }
 ];
 
-console.log('hello, world!');
+exports.data = data;

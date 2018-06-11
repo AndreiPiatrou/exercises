@@ -1,6 +1,6 @@
 
 ## Tasks
-- extract array named `data` into separate module and consume it as a `Promise` / `async/await` result
+- extract array named `data` into separate module/method and consume it as a `Promise` / `async/await`-ed result
 - prevent result array modifications
 - filter admin users and print them out
 - group users by role attribute and print them out
