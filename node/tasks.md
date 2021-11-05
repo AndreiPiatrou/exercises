@@ -1,10 +1,9 @@
 
 ## Tasks
-- extract array named `data` into separate module/method and consume it as a `Promise` / `async/await`-ed result
-- prevent result array modifications
-- filter admin users and print them out
-- group users by role attribute and print them out
-- aggregate users array to have an extra `isYoungest` attribute, but do not affect source objects
+- return `data` as a function async execution result
+- filter in admin users and print them out
+- group users by their `role` attribute and print them out
+- aggregate users to have an extra boolean `isYoungest` attribute that flags the youngest users by their age and return result array or new users
 - use `Promise` / `async/await` where possible *
 - use tests as much as possible *
  
